@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 97vw;
+  background-color: rgb(41, 40, 40);
+}
+.cal {
+  height: 600px;
+  width: 400px;
+  padding: 0 13px;
+  margin: 70px auto;
+  border-radius: 20px;
+  box-shadow: 10px 5px 50px rgb(96, 95, 95);
+}
+.cal-1 {
+  height: 150px;
+  width: 100%;
+  /* background-color: rgb(204, 228, 228); */
+}
+.cal-2 {
+  height: 450px;
+  width: 100%;
+  /* background-color: rgb(189, 236, 236); */
+}
+input {
+  width: 100%;
+  text-align: right;
+  height: 100px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 35px;
+  color: aliceblue;
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+
+button {
+  border-radius: 50%;
+  margin: 5px;
+  width: 78px;
+  height: 78px;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  box-shadow: -1px -1px 10px rgb(96, 95, 95);
+  cursor: pointer;
+}
+.equal {
+  background-color: rgb(200, 10, 83);
+}
+.operator {
+  color: rgb(0, 121, 0);
+}
